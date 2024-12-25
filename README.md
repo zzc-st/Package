@@ -5,7 +5,7 @@
 添加下面代码到feeds.conf.default文件
 
 ```bash
-src-git cyzzc_package https://github.com/zzc-st/Package
+src-git zzcpackage https://github.com/zzc-st/Package
 ```
 *  自用仓库，请别Fork,如果需要请前往 https://github.com/kenzok8/small-package 自行Fork。
 
