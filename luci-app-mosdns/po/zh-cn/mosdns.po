@@ -1,0 +1,158 @@
+msgid "Basic Setting"
+msgstr "基本设置"
+
+msgid "Manual Configuration"
+msgstr "手动配置"
+
+msgid "MosDNS is a 'programmable' DNS forwarder."
+msgstr "MosDNS 是一个插件化的 DNS 转发/分流器。"
+
+msgid "RUNNING"
+msgstr "运行中"
+
+msgid "NOT RUNNING"
+msgstr "未运行"
+
+msgid "Collecting data..."
+msgstr "获取数据中..."
+
+msgid "Failed to fetch MosDNS status"
+msgstr "无法获取MosDNS状态"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Enable DNS Redirect"
+msgstr "启用 DNS 重定向"
+
+msgid "Enable DNS ADblock"
+msgstr "启用 DNS 广告过滤"
+
+msgid "Geodata Update"
+msgstr "数据库更新"
+
+msgid "Update Time (Every Day)"
+msgstr "更新时间（每天）"
+
+msgid "Update Cycle"
+msgstr "更新周期"
+
+msgid "Every Day"
+msgstr "每天"
+
+msgid "Every Monday"
+msgstr "每周一"
+
+msgid "Every Tuesday"
+msgstr "每周二"
+
+msgid "Every Wednesday"
+msgstr "每周三"
+
+msgid "Every Thursday"
+msgstr "每周四"
+
+msgid "Every Friday"
+msgstr "每周五"
+
+msgid "Every Saturday"
+msgstr "每周六"
+
+msgid "Every Sunday"
+msgstr "每周日"
+
+msgid "Proxy URL"
+msgstr "代理地址"
+
+msgid "Database Update"
+msgstr "数据库更新"
+
+msgid "Check And Update"
+msgstr "检查并更新"
+
+msgid "Enable Auto Database Update"
+msgstr "启用数据库自动更新"
+
+msgid "Enable Config Update"
+msgstr "启用配置文件同步"
+
+msgid "Enable AutoConfiguration"
+msgstr "启用自动化配置"
+
+msgid "This will make the necessary adjustments to other plug-in settings."
+msgstr "对其他插件的设置进行必要的设置，目前仅支持 SSRP VSSR PASSWALL。"
+
+msgid "This will revert the adjustments."
+msgstr "还原设置助手对其他插件进行的配置设定。"
+
+msgid "DNS Helper"
+msgstr "DNS 设置助手"
+
+msgid "Revert Settings"
+msgstr "DNS 设置还原"
+
+msgid "Apply"
+msgstr "应用"
+
+msgid "MosDNS Config File"
+msgstr "MosDNS 配置文件选择"
+
+msgid "Default Config"
+msgstr "默认配置"
+
+msgid "Custom Config"
+msgstr "自定义配置"
+
+msgid "Log Level"
+msgstr "日志级别"
+
+msgid "MosDNS Log File"
+msgstr "日志文件"
+
+msgid "Remote DNS"
+msgstr "远程 DNS"
+
+msgid "Listen port"
+msgstr "监听端口"
+
+msgid "Rule List"
+msgstr "规则列表"
+
+msgid "Rule Settings"
+msgstr "自定义规则列表"
+
+msgid "The rule list applies to both 'Default Config' and 'Custom Config' profiles."
+msgstr "规则列表适用于'默认配置'和'自定义配置'配置文件。"
+
+msgid "The rule list applies exclusively to 'Custom Config' profiles."
+msgstr "规则列表仅适用于'自定义配置'配置文件。"
+
+msgid "White Lists"
+msgstr "白名单"
+
+msgid "These domain names will be resolved with the highest priority<br> Please input the domain names of websites<br> Each line should contain only one website domain<br>For example: hm.baidu.com"
+msgstr "这些域名将以最高优先级进行 DNS 解析<br>请输入网站的域名<br>每行只能包含一个网站域名<br>例如：hm.baidu.com"
+
+msgid "Block Lists"
+msgstr "黑名单"
+
+msgid "These domain names are blocked and cannot be resolved through DNS<br>Please input the domain names of websites<br>Each line should contain only one website domain<br>For example: baidu.com"
+msgstr "这些域名被屏蔽，无法进行 DNS 解析<br>请输入网站的域名<br>每行只能包含一个网站域名<br>例如：baidu.com"
+
+msgid "Hosts<br>For example: baidu.com 10.0.0.1"
+msgstr "Hosts<br>例如：baidu.com 10.0.0.1"
+
+msgid "Redirect"
+msgstr "重定向"
+
+msgid "These domain names will be redirected<br>Requests for domain A will return records for domain B<br>For example: a.com b.com"
+msgstr "这些域名将被重定向<br>对于域名 A 的请求将返回域名 B 的记录<br>例如：a.com b.com"
+
+msgid "View the Custom YAML Configuration file used by this MosDNS<br>You can edit it according to your own needs"
+msgstr "查看此 MosDNS 使用的自定义 YAML 配置文件<br>您可以根据自己的需求进行编辑"
+
+msgid "Logs"
+msgstr "日志"
+
+msgid "Clear logs"
+msgstr "清空日志"
