@@ -1,7 +1,7 @@
 #ifndef APP_FILTER_H
 #define APP_FILTER_H
 
-#define AF_VERSION "5.0"
+#define AF_VERSION "5.1"
 #define AF_FEATURE_CONFIG_FILE "/tmp/feature.cfg"
 
 #define MAX_DPI_PKT_NUM 64
@@ -177,6 +177,5 @@ void af_mac_list_init(void);
 void af_mac_list_clear(void);
 af_mac_info_t * find_af_mac(unsigned char *mac);
 int is_user_match_enable(void);
-extern int g_oaf_enable;
 
 #endif

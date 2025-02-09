@@ -1582,6 +1582,7 @@ americabrox.ac.uk
 americangreencard.com
 americanunfinished.com
 americasvoice.news
+americorps.gov
 amerikaninsesi.com
 amerikaninsesi.org
 amerikaovozi.com
@@ -3001,6 +3002,7 @@ bangkokpost.com
 bangkokstreetwhores.com
 bangor-university-london.ac.uk
 bangor.ac.uk
+bangumi.tv
 bangyoulater.com
 bangyourwife.com
 bankmobilevibe.com
@@ -3650,6 +3652,7 @@ bfnn.org
 bfsh.hk
 bftv.ac.uk
 bgc.ac.uk
+bgm.tv
 bgov.com
 bgr.in
 bgs.ac.uk
@@ -5616,6 +5619,7 @@ cccu.ac.uk
 ccdc.ac.uk
 ccdtr.org
 ccesd.ac.uk
+ccfd.org.tw
 ccfe.ac.uk
 cch.ac.uk
 cchere.com
@@ -5991,6 +5995,7 @@ chicloud.ac.uk
 chid.com.mm
 chigroup.ac.uk
 chihair-straightener.com
+chii.in
 chikiporn.com
 chilbolton.ac.uk
 childrenofthe90s.ac.uk
@@ -11527,7 +11532,6 @@ goagent.codeplex.com
 goagentplus.com
 goals.ac.uk
 gobeatsye.com
-gobet.cc
 gobianywhere.com
 gobuildx.net
 gobuyonlinestore.net
@@ -11996,6 +12000,7 @@ graylab.ac.uk
 grazie.ai
 grcb.ac.uk
 gre.ac.uk
+greasyfork.org
 great-firewall.com
 great-roc.org
 greatapedictionary.ac.uk
@@ -12046,6 +12051,7 @@ grimsby.ac.uk
 grimsbytec.ac.uk
 grindr.com
 grooby.com
+groq.com
 grotty-monday.com
 ground.news
 groupfun.com
@@ -14516,6 +14522,7 @@ ipadmini.lk
 ipadpro.buzz
 ipalter.com
 ipcc-wg3.ac.uk
+ipdefenseforum.com
 ipem.ac.uk
 ipfire.org
 ipforesightforum.ac.uk
@@ -19514,6 +19521,7 @@ nocn.ac.uk
 nocs.ac.uk
 nodejs.org
 nodes.ac.uk
+nodeseek.com
 nodesource.com
 nofile.io
 noisullifb.com
@@ -19634,7 +19642,6 @@ npmjs.com
 npmjs.org
 npnt.me
 npr.org
-nps.gov
 npsboost.com
 npsc.ac.uk
 nptc.ac.uk
@@ -20496,6 +20503,7 @@ packagist.org
 packer.io
 packetix.net
 pacloudflare.com
+pacom.mil
 pacopacomama.com
 pact.ac.uk
 padmanet.com
@@ -26154,6 +26162,8 @@ tiktokcdn-us.com
 tiktokcdn.com
 tiktokd.net
 tiktokd.org
+tiktokeu-cdn.com
+tiktokrow-cdn.com
 tiktokv.com
 tiktokv.eu
 tiktokv.us
@@ -26564,6 +26574,7 @@ tte-lisa.ac.uk
 tteshop.com
 ttetraining.ac.uk
 ttlivecdn.com
+ttoverseaus.net
 ttrb.ac.uk
 tttan.com
 ttv.com.tw
@@ -27274,7 +27285,6 @@ usfk.mil
 ushare.ac.uk
 ushaw.ac.uk
 ushuarencity.echainhost.com
-usinfo.state.gov
 usma.edu
 usmc.mil
 usmgtcg.ning.com
@@ -27946,25 +27956,36 @@ viznet.ac.uk
 vizvaz.com
 vjav.com
 vjmedia.com.hk
+vk-apps.com
+vk-apps.ru
 vk-cdn.me
 vk-cdn.net
 vk-portal.net
 vk.cc
 vk.com
+vk.company
 vk.design
 vk.link
 vk.me
 vk.ru
+vk.team
 vkcache.com
 vkgo.app
 vklive.app
 vkmessenger.app
 vkmessenger.com
 vkontakte.ru
+vkuser.net
 vkuseraudio.com
+vkuseraudio.net
+vkuseraudio.ru
+vkusercdn.ru
 vkuserlive.net
+vkuserphoto.ru
 vkuservideo.com
 vkuservideo.net
+vkuservideo.ru
+vkvideo.ru
 vl4x.net
 vllcs.org
 vmglobal.net
@@ -29099,7 +29120,6 @@ www-paypal.info
 www-paypal.us
 www-sms-apple.com
 www.ajsands.com
-www.americorps.gov
 www.antd.org
 www.aolnews.com
 www.cmoinc.org
