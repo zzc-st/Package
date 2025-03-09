@@ -7,7 +7,7 @@ on:
       - 'diy/**'
   workflow_dispatch:
   schedule:
-    - cron: 10 10 * * 0
+    - cron: 10 02 * * 0
   watch:
     types: started
   repository_dispatch:
