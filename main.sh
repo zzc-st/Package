@@ -26,7 +26,7 @@ git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall passwall && mv
 git clone --depth 1 https://github.com/sirpdboy/luci-theme-opentopd
 git clone --depth 1 https://github.com/esirplayground/luci-app-poweroff
 git clone --depth 1 https://github.com/destan19/OpenAppFilter && mvdir OpenAppFilter
-git clone --depth 1 https://github.com/sirpdboy/luci-app-advanced
+# git clone --depth 1 https://github.com/sirpdboy/luci-app-advanced
 git clone --depth 1 -b lede https://github.com/pymumu/luci-app-smartdns
 # git clone --depth 1 https://github.com/cyzzc/luci-app-vssr
 # git clone --depth 1 https://github.com/jerrykuku/lua-maxminddb
@@ -35,7 +35,7 @@ git clone --depth 1 https://github.com/QiuSimons/openwrt-mos && mvdir openwrt-mo
 git clone --depth 1 https://github.com/cyzzc/openwrt_nezha && mvdir openwrt_nezha
 git clone --depth 1 https://github.com/fw876/helloworld && mv -n helloworld/{luci-app-ssr-plus,tuic-client,shadow-tls,redsocks2,lua-neturl} ./ ; rm -rf helloworld
 # git clone --depth 1 https://github.com/sirpdboy/luci-theme-kucat
-# git clone --depth 1 https://github.com/sirpdboy/luci-app-advancedplus
+git clone --depth 1 https://github.com/sirpdboy/luci-app-advancedplus
 
 svn export https://github.com/immortalwrt/packages/trunk/net/smartdns
 
