@@ -207,6 +207,7 @@
 2021hkcharter.com
 2023aga.oen.tw
 2047.name
+2047.one
 2049bbs.xyz
 20thcenturystudios.com.au
 20thcenturystudios.com.br
@@ -3229,6 +3230,7 @@ bdsmtv.cc
 bdsmvideos.net
 beaa.ac.uk
 beaconevents.com
+bearteach.com
 beascoremodel.com
 beastiegals.com
 beastysexlinks.com
@@ -5261,6 +5263,8 @@ cablegatesearch.net
 cabletv.com.hk
 cabletvdirectv.com
 cabot.ac.uk
+cachefly.com
+cachefly.net
 cachinese.com
 cacnw.com
 cactusvpn.com
@@ -7179,6 +7183,7 @@ customizedbeatsdre.com
 customnikeshoes.com
 cusu.hk
 cutg.ac.uk
+cutout.pro
 cutscenes.net
 cutt.ly
 cuv.ac.uk
@@ -7925,9 +7930,6 @@ disquscdn.com
 disqusservice.com
 distillate.ac.uk
 distinct.ac.uk
-distribution.qatp1.net
-distribution.qcpp1.net
-distribution.qpdp1.net
 dit-inc.us
 divas.com.uy
 diversityuk.ac.uk
@@ -8136,8 +8138,6 @@ dowjoneson.com
 download.aircrack-ng.org
 download.com
 download.qatp1.net
-download.qcpp1.net
-download.qpdp1.net
 downloadpass.com
 downloadsforipod.com
 dphk.org
@@ -9806,6 +9806,7 @@ faclair.ac.uk
 facnbook.com
 facoccmed.ac.uk
 facrbook.com
+factchecklab.org
 factograph.info
 factpedia.org
 factwire.org
@@ -10007,7 +10008,6 @@ fashiontechnologyacademy.ac.uk
 fast.com
 fastech.ac.uk
 fastestvpn.com
-fastgpt.run
 fastindianporn.com
 fastlane.ci
 fastlane.tools
@@ -10121,7 +10121,6 @@ feedburner.com
 feeder.co
 feedherfuckher.com
 feedly.com
-feedly.comfastgpt.run
 feeds.fileforum.com
 feedx.net
 feelssh.com
@@ -10452,9 +10451,7 @@ fonolia.com
 fontawesome.com
 fontbook.com
 fontexplorerx.com
-fontfiles.googleadapis.com
 fonts.com
-fonts.googleadapis.com
 fonts.net
 fontshop.com
 fontsinuse.com
@@ -11240,6 +11237,7 @@ gcsp.ac.uk
 gcu.ac.uk
 gculondon.ac.uk
 gda.ac.uk
+gdaily.org
 gdansk-amazon.com
 gdbt.net
 gdian-dh.mom
@@ -11362,6 +11360,7 @@ getpocket.com
 getporn.tv
 getprintersupports.com
 getscorecash.com
+getsession.org
 getsexgames.com
 getsocialscope.com
 getsync.com
@@ -11985,7 +11984,6 @@ googleoptimize.com
 googlepagecreator.com
 googlephotos.com
 googleplay.com
-googleplex.com
 googleplus.com
 googlescholar.com
 googlesile.com
@@ -18232,8 +18230,6 @@ mongodb.com
 mongodb.org
 monica.im
 monitorchina.org
-monitoring.qatp1.net
-monitoring.qcpp1.net
 monitoring.qpdp1.net
 monitrix.net
 monkwear.ac.uk
@@ -21998,6 +21994,7 @@ ppb-mod.buzz
 ppe.lawyer
 pplah.com
 pplusstatic.com
+pplx.ai
 ppp91.cc
 pppds.com
 ppre.ac.uk
@@ -22302,8 +22299,6 @@ qaa.ac.uk
 qac.ac.uk
 qacollege.ac.uk
 qagpublic.qatp1.net
-qagpublic.qcpp1.net
-qagpublic.qpdp1.net
 qanote.com
 qatarescortsvip.com
 qattdh.cc
@@ -22318,9 +22313,7 @@ qcmod.xyz
 qctconnect.com
 qdiehzz7.me
 qeliz.ac.uk
-qgadmin.qatp1.net
 qgadmin.qcpp1.net
-qgadmin.qpdp1.net
 qgirl.com.tw
 qhigh.com
 qi-gong.me
@@ -22398,10 +22391,6 @@ qualcommventures.com
 qualidata.ac.uk
 qualphone.com
 qualysapi.qatp1.net
-qualysapi.qcpp1.net
-qualysapi.qpdp1.net
-qualysguard.qatp1.net
-qualysguard.qcpp1.net
 qualysguard.qpdp1.net
 quanben-xiaoshuo.com
 quanben.io
@@ -23443,9 +23432,7 @@ scaleflex.com
 scaleform.com
 scandalplanet.com
 scanlover.com
-scanservice1.qatp1.net
 scanservice1.qcpp1.net
-scanservice1.qpdp1.net
 scapa.ac.uk
 scarb-6-form.ac.uk
 scarboroughtec.ac.uk
@@ -24752,6 +24739,7 @@ soundcloud.com
 soundofhope.eu
 soundofhope.kr
 soundofhope.org
+soundon.fm
 soundsoftware.ac.uk
 soundwell.ac.uk
 soup.io
@@ -26042,6 +26030,7 @@ tferwq.com
 tfhub.dev
 tfiflve.com
 tfsallin.net
+tg-me.com
 tg.dev
 tgac.ac.uk
 tgirlcentral.com
@@ -29450,7 +29439,6 @@ www.dwheeler.com
 www.eastturkistan.net
 www.gmiddle.com
 www.gmiddle.net
-www.googleadapis.com
 www.idlcoyote.com
 www.klip.me
 www.lamenhu.com
@@ -31167,6 +31155,7 @@ full:paper-attachments.s3.amazonaws.com
 full:pchomeonline.com.tw
 full:pki.google.com
 full:poshtestgallery.cloudapp.net
+full:pplx-res.cloudinary.com
 full:practivate.adobe
 full:practivate.adobe.com
 full:practivate.adobe.ipp
