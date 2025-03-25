@@ -38,7 +38,7 @@ git clone --depth 1 https://github.com/fw876/helloworld && mv -n helloworld/{luc
 git clone --depth 1 https://github.com/sirpdboy/luci-app-advancedplus
 git clone --depth 1 https://github.com/kiddin9/kwrt-packages && mv -n kwrt-packages/luci-app-bypass kwrt-packages/luci-app-fileassistant ./ ; rm -rf kwrt-packages
 svn export https://github.com/immortalwrt/packages/trunk/net/smartdns
-svn export https://github.com/kenzok8/small-package/trunk/pdnsd-alt
+wget https://raw.githubusercontent.com/kenzok8/small-package/main/pdnsd-alt
 
 git_sparse_clone master "https://github.com/immortalwrt/packages" "immpack" net/sub-web \
 net/smartdns net/dnsproxy net/haproxy net/v2raya net/cdnspeedtest \
