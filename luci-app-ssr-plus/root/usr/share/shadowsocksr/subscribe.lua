@@ -10,6 +10,8 @@ require "luci.util"
 require "luci.sys"
 require "luci.jsonc"
 require "luci.model.ipkg"
+local ucursor = require "luci.model.uci".cursor()
+
 -- these global functions are accessed all the time by the event handler
 -- so caching them is worth the effort
 local tinsert = table.insert
@@ -21,16 +23,26 @@ local cache = {}
 local nodeResult = setmetatable({}, {__index = cache}) -- update result
 local name = 'shadowsocksr'
 local uciType = 'servers'
-local ucic = luci.model.uci.cursor()
+local ucic = require "luci.model.uci".cursor()
 local proxy = ucic:get_first(name, 'server_subscribe', 'proxy', '0')
 local switch = ucic:get_first(name, 'server_subscribe', 'switch', '1')
 local allow_insecure = ucic:get_first(name, 'server_subscribe', 'allow_insecure', '0')
 local subscribe_url = ucic:get_first(name, 'server_subscribe', 'subscribe_url', {})
 local filter_words = ucic:get_first(name, 'server_subscribe', 'filter_words', '过期时间/剩余流量')
 local save_words = ucic:get_first(name, 'server_subscribe', 'save_words', '')
-local v2_ss = luci.sys.exec('type -t -p sslocal ss-redir') ~= "" and "ss" or "v2ray"
-local ss_variant = luci.sys.exec('type -t -p sslocal') ~= "" and "isSSRust" or luci.sys.exec('type -t -p ss-redir') ~= "" and "isSSLibev"
+-- 读取 ss_type 设置
+local ss_type = ucic:get_first(name, 'server_subscribe', 'ss_type')
+-- 根据 ss_type 选择对应的程序
+local ss_program = ""
+if ss_type == "ss-rust" then
+    ss_program = "sslocal"  -- Rust 版本使用 sslocal
+elseif ss_type == "ss-libev" then
+    ss_program = "ss-redir"  -- Libev 版本使用 ss-redir
+end
+local v2_ss = luci.sys.exec('type -t -p ' .. ss_program .. ' 2>/dev/null') ~= "" and "ss" or "v2ray"
+local has_ss_type = luci.sys.exec('type -t -p ' .. ss_program .. ' 2>/dev/null') ~= "" and ss_type
 local v2_tj = luci.sys.exec('type -t -p trojan') ~= "" and "trojan" or "v2ray"
+local hy2_type = luci.sys.exec('type -t -p hysteria') ~= "" and "hysteria2"
 local log = function(...)
 	print(os.date("%Y-%m-%d %H:%M:%S ") .. table.concat({...}, " "))
 end
@@ -146,7 +158,37 @@ end
 -- 处理数据
 local function processData(szType, content)
 	local result = {type = szType, local_port = 1234, kcp_param = '--nocomp'}
-	if szType == 'ssr' then
+	if szType == "hysteria2" then
+		local url = URL.parse("http://" .. content)
+		local params = url.query
+
+		result.alias = url.fragment and UrlDecode(url.fragment) or nil
+		result.type = hy2_type
+		result.server = url.host
+		result.server_port = url.port
+		if params.protocol then
+			result.flag_transport = "1"
+			result.transport_protocol = params.protocol or "udp"
+		end
+		result.hy2_auth = url.user
+		result.uplink_capacity = params.upmbps
+		result.downlink_capacity = params.downmbps
+		if params.obfs and params.obfs-password then
+			result.flag_obfs = "1"
+			result.transport_protocol = params.obfs
+			result.transport_protocol = params.obfs-password
+		end
+		if params.sni then
+			result.tls = "1"
+			result.tls_host = params.sni
+		end
+		if params.insecure then
+			result.insecure = "1"
+			if params.sni then
+				result.pinsha256 = params.pinsha256
+			end
+		end
+	elseif szType == 'ssr' then
 		local dat = split(content, "/%?")
 		local hostInfo = split(dat[1], ':')
 		result.type = 'ssr'
@@ -279,7 +321,7 @@ local function processData(szType, content)
 		result.alias = UrlDecode(alias)
 		result.type = v2_ss
 		result.v2ray_protocol = (v2_ss == "v2ray") and "shadowsocks" or nil
-		result.ss_variant = ss_variant
+		result.has_ss_type = has_ss_type
 		result.encrypt_method_ss = method
 		result.password = password
 		result.server = host[1]
@@ -299,6 +341,7 @@ local function processData(szType, content)
 					result.plugin_opts = plugin_info:sub(idx_pn + 1, #plugin_info)
 				else
 					result.plugin = plugin_info
+					result.plugin_opts = ""
 				end
 				-- 部分机场下发的插件名为 simple-obfs，这里应该改为 obfs-local
 				if result.plugin == "simple-obfs" then
@@ -558,7 +601,7 @@ local function processData(szType, content)
 end
 -- wget
 local function wget(url)
-	local stdout = luci.sys.exec('wget -q --user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36" --no-check-certificate -O- "' .. url .. '"')
+	local stdout = luci.sys.exec('wget-ssl -q --user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36" --no-check-certificate -O- "' .. url .. '"')
 	return trim(stdout)
 end
 
@@ -771,3 +814,5 @@ if subscribe_url and #subscribe_url > 0 then
 		end
 	end)
 end
+
+
