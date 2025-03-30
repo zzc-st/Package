@@ -181,6 +181,9 @@
 1mobile.com
 1mobile.tw
 1monsterbeatsbydreus.com
+1password.ca
+1password.com
+1password.eu
 1point3acres.com
 1pondo.tv
 1pornlist.com
@@ -615,6 +618,7 @@ aabb1802.com
 aabb1803.com
 aacrjournals.org
 aadmv.com
+aadrm.com
 aaex.uk
 aalah.me
 aamacau.com
@@ -896,6 +900,7 @@ adobesign.com
 adobesigncdn.com
 adobespark.com
 adobess.com
+adobestats.io
 adobestock.com
 adobetag.com
 adobetarget.com
@@ -1054,6 +1059,7 @@ agefans.com
 agemys.org
 agendaweek.com
 agenet.ac.uk
+agilebits.com
 agnesb.fr
 agocg.ac.uk
 agoogleaday.com
@@ -1880,6 +1886,7 @@ apollocrewe.ac.uk
 apornotube.net
 aporntv.com
 apornvideo.com
+app-analytics-services.com
 app-dynamics.com
 app-measurement-cn.com
 app-measurement.com
@@ -3653,6 +3660,7 @@ bestpremiumpornsite.com
 bestrecipes.com.au
 bestsexcam.com
 bestshoesale2014.net
+bestsrv.de
 besttitstube.com
 bestvpn.com
 bestvpnanalysis.com
@@ -7690,7 +7698,9 @@ difangwenge.org
 dify.ai
 digicert-cn.com
 digicert-validation.com
+digicert.co.jp
 digicert.com
+digicert.eu
 digiland.tw
 digimap.ac.uk
 digisfera.com
@@ -9145,6 +9155,8 @@ enterprisebydesign.ac.uk
 enterprisepaging.com
 enterpriseresearch.ac.uk
 enterprisessl.com
+entrust.cn
+entrust.com
 entrust.net
 entrustdatacard.com
 enveast.ac.uk
@@ -11728,6 +11740,7 @@ goodreaders.com
 goodreads.com
 goodsdunk.net
 goodsexporn.org
+goodsrv.de
 goodtv.com.tw
 goodtv.tv
 goofind.com
@@ -12353,6 +12366,7 @@ happymeal.co.nz
 happymeal.com
 happymeal.com.au
 happymealdigital.com
+happysrv.de
 haproxy.org
 hardcore-sex-filme.com
 hardcoregayblog.com
@@ -12829,6 +12843,7 @@ heyuedi.com
 heywire.com
 heyzo.com
 hf-iphone.com
+hf.co
 hfaes.ac.uk
 hfals.ac.uk
 hfma.ac.uk
@@ -13190,6 +13205,7 @@ hotsexvideo.mobi
 hotsexydolls.com
 hotshame.com
 hotspotshield.com
+hotsrv.de
 hotstar-cdn.net
 hotstar-labs.com
 hotstar.com
@@ -14879,6 +14895,8 @@ italiatibet.org
 itasoftware.com
 itcanwait.com
 itcfonts.com
+itch.io
+itch.zone
 itchen.ac.uk
 iteach.ac.uk
 itec.ac.uk
@@ -14959,6 +14977,7 @@ iwork.wang
 iwyn138.com
 ixnxx.tv
 ixquick.com
+ixsystems.com
 ixxx.com
 iyalc.com
 iyf.tv
@@ -17412,6 +17431,7 @@ megaporno.com.br
 megapornpics.com
 megaproxy.com
 megarotic.com
+megasrv.de
 megatitsminka.com
 megavideo.com
 meguk.ac.uk
@@ -17609,6 +17629,7 @@ microsoftadvertising.com
 microsoftadvertisingregionalawards.com
 microsoftaffiliates.com
 microsoftapp.net
+microsoftazuread-sso.com
 microsoftazuresponsorships.com
 microsoftcloud.com
 microsoftcloudsummit.com
@@ -19430,6 +19451,7 @@ nicd.ac.uk
 niceanimegames.com
 niceporn.tv
 nicer.ac.uk
+nicesrv.de
 nicesshop.net
 nichepornsite.com
 nichepornsites.com
@@ -20465,6 +20487,7 @@ opencollective.com
 opencreate.org
 opendemocracy.net
 opendn.xyz
+opendns.com
 opendroneid.org
 opened.ac.uk
 openengineeringlaboratory.ac.uk
@@ -20480,6 +20503,7 @@ openlibrary.org
 openmaps.org
 openreality.com
 openresty.org
+openrouter.ai
 opensciencelab.ac.uk
 opensciencelaboratory.ac.uk
 opensea.io
@@ -20699,6 +20723,9 @@ ozchinese.com
 ozeex.com
 ozodi.org
 ozodlik.org
+ozon.ru
+ozone.ru
+ozonusercontent.com
 ozvoice.org
 ozxw.com
 ozyoyo.com
@@ -21428,6 +21455,8 @@ playbydurex.com
 playcover.io
 player.fm
 playerjs.io
+playfab.com
+playfabapi.com
 playforceone.com
 playhearthstone.com
 playmation.com
@@ -21980,6 +22009,7 @@ powerphoto.org
 powershape-e.com
 powershape.com
 powershellgallery.com
+powersrv.de
 powersunitedvr.com
 powia.ac.uk
 pp-soc.com
@@ -22409,6 +22439,7 @@ quicinc.com
 quickconnect.to
 quickiepage.com
 quickoffice.com
+quicksrv.de
 quicktake.video
 quicktime.cc
 quicktime.com
@@ -25657,6 +25688,7 @@ syfor.click
 syhacked.com
 sylfoundation.org
 symantec.com
+symauth.com
 symcb.com
 symcd.com
 symonds.ac.uk
@@ -26782,6 +26814,7 @@ truebuddha-md.org
 truedepth3d.com
 truedwg.com
 truefi.io
+truenas.com
 trulyergonomic.com
 trunest.com
 truro-penwith.ac.uk
@@ -27386,12 +27419,14 @@ ultimaforever.com
 ultimaonline.com
 ultradonkey.com
 ultralab.ac.uk
+ultrasrv.de
 ultrasurf.us
 ultravpn.com
 ultravpn.fr
 ultraxs.com
 umagazine.com.hk
 umass.edu
+umbrella.com
 umds.ac.uk
 umich.edu
 umis.ac.uk
@@ -28179,6 +28214,7 @@ visa.tc
 visabank.org
 visabg.com
 visabusinessinsights.com
+visaca.com
 visacarddesignlab.com
 visacards.com
 visacheckout.net
@@ -29056,6 +29092,7 @@ whystudyenglish.ac.uk
 whystudylanguages.ac.uk
 whystudymaterials.ac.uk
 whyx.org
+wi-fi.org
 wias.ac.uk
 wicn.ac.uk
 widevine.com
@@ -30937,6 +30974,7 @@ full:aod-pod-uk-live.akamaized.net
 full:api-p.videomarket.jp
 full:api.viu.now.com
 full:apl-hamivideo.cdn.hinet.net
+full:apple-tv-plus-press.apple.com
 full:apple.com.akadns.net
 full:appleworldwidedeveloper.hb-api.omtrdc.net
 full:appleworldwidedeveloper.sc.omtrdc.net
@@ -31079,6 +31117,8 @@ full:heads4-ak-spotify-com.akamaized.net
 full:himalaya-exchange.zendesk.com
 full:hl2rcv.adobe.com
 full:hlrcv.stage.adobe.com
+full:hls-amt.itunes.apple.com
+full:hls.itunes.apple.com
 full:homebrew.bintray.com
 full:hpefonts.s3.amazonaws.com
 full:hpstore.corpmerchandise.com
@@ -31120,6 +31160,7 @@ full:netflix.com.edgesuite.net
 full:notary-submissions-prod.s3-accelerate.amazonaws.com
 full:notary-submissions-prod.s3.us-west-2.amazonaws.com
 full:notify.ppy.sh
+full:np-edge.itunes.apple.com
 full:ntp-b.nist.gov
 full:ntp-c.colorado.edu
 full:ntp-d.nist.gov
@@ -31150,6 +31191,7 @@ full:p16-tiktokcdn-com.akamaized.net
 full:paper-attachments.s3.amazonaws.com
 full:pchomeonline.com.tw
 full:pki.google.com
+full:play-edge.itunes.apple.com
 full:poshtestgallery.cloudapp.net
 full:pplx-res.cloudinary.com
 full:practivate.adobe
@@ -31305,6 +31347,7 @@ full:time4.facebook.com
 full:time4.google.com
 full:time5.facebook.com
 full:tmdb-image-prod.b-cdn.net
+full:tv.applemusic.com
 full:tvcastlive-hamivideo.cdn.hinet.net
 full:ubisoft-orbit-savegames.s3.amazonaws.com
 full:ubisoft-uplay-savegames.s3.amazonaws.com
@@ -31316,6 +31359,7 @@ full:ut1-wwv.nist.gov
 full:utcnist.colorado.edu
 full:utcnist2.colorado.edu
 full:utcnist3.colorado.edu
+full:uts-api.itunes.apple.com
 full:ve-dash-uk-live.akamaized.net
 full:ve-uhd-push-uk-live.akamaized.net
 full:venmo.s3.amazonaws.com
