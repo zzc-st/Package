@@ -176,6 +176,7 @@
 1lib.eu
 1lib.limited
 1lib.pl
+1lib.sk
 1lib.to
 1lib.tw
 1mobile.com
@@ -306,6 +307,7 @@
 3dtin.net
 3go.fun
 3hentai.net
+3lateral.com
 3lib.net
 3movs.com
 3movs.xyz
@@ -840,6 +842,7 @@ adguard.com
 adguard.info
 adguard.io
 adguard.org
+adguardaccount.com
 adguardvpn.com
 adhelpnews.com
 adidas.at
@@ -2571,6 +2574,7 @@ audiencenetwork.com
 audiencenetwork.tv
 audiobeatsau.com
 audiobeatsbydre.com
+audiomack.com
 audiomonsterbeatsonline.com
 aue.ac.uk
 auee.ac.uk
@@ -2848,6 +2852,7 @@ awjq.cc
 awlc.ac.uk
 aws
 aws-iot-hackathon.com
+aws.com
 awsautopilot.com
 awsautoscaling.com
 awsbraket.com
@@ -5516,6 +5521,7 @@ capitalgames.com
 capitaliq.com
 capitalisingoncreativity.ac.uk
 capsule.ac.uk
+capturingreality.com
 carabinasypistolas.com
 carbo-biocrop.ac.uk
 carbobiocrop.ac.uk
@@ -6223,6 +6229,7 @@ chuporno.com
 churchill.ac.uk
 churchinhongkong.org
 chushigangdrug.ch
+chutes.ai
 chutuno.fun
 chuzs2.xyz
 chwr7s8u.com
@@ -7104,6 +7111,7 @@ cttoolkit.ac.uk
 ctv.com.tw
 ctwant.com
 ctyun.online
+cubicmotion.com
 cubo.ac.uk
 cuc.ac.uk
 cuckfilmswifefuck.com
@@ -9572,6 +9580,7 @@ faacebook.com
 faam.ac.uk
 faapy.com
 faasbook.com
+fab.com
 fabhairypussy.com
 fablabplymouth.ac.uk
 fabricmc.net
@@ -9932,6 +9941,7 @@ fanhaodang.com
 fanhaodian.com
 fanhaolou.com
 fanhowab.buzz
+fani.com
 fank.ru
 fanleakstoday.com
 fanqiang.network
@@ -10042,6 +10052,7 @@ fasttrackreadysupport.com
 fatbtc.com
 fatstube.com
 fault-analysis-group.ac.uk
+favcomic.com
 favebook.com
 favelaporno.com
 favepornmovs.com
@@ -11641,6 +11652,7 @@ go-lang.com
 go-lang.net
 go-lang.org
 go-pki.com
+go-to-library.sk
 go-to-zlibrary.se
 go.com
 go.dev
@@ -12278,6 +12290,7 @@ gyutto.com
 gzm.tv
 gzone-anime.info
 h-china.org
+h-ciyuan.com
 h-doujinshi.xyz
 h-flash.com
 h-moe.com
@@ -12816,6 +12829,7 @@ hetzner.cloud
 hetzner.com
 hetzner.company
 hetzner.de
+hetzner.social
 heungkongdiscuss.com
 hew.ac.uk
 hewit.ac.uk
@@ -13666,6 +13680,7 @@ hypnohub.net
 hypnoporn.net
 hypnotube.com
 hypothes.is
+hyprsense.com
 hysbys.ac.uk
 hzmn.net
 i-123-hp.com
@@ -14894,6 +14909,7 @@ ita-do.com
 itaboo.info
 itaeromanga.com
 italiabeatsbydrdre.com
+italian-books.sk
 italiatibet.org
 itasoftware.com
 itcanwait.com
@@ -17017,6 +17033,7 @@ mantais.ac.uk
 mantochichi.com
 manufacturingedc.ac.uk
 manurefetish.com
+manwa.me
 manytoon.com
 manyvids.com
 manyvoices.news
@@ -18085,6 +18102,7 @@ misskey.yukineko.me
 misskeyusercontent.jp
 mist.ac.uk
 mist.vip
+mistral.ai
 mistresskym.com
 mit
 mit.edu
@@ -18472,6 +18490,7 @@ msftnet.org
 msgamesresearch.com
 msguancha.com
 msha.gov
+mshome.net
 msinnovationchallenge.com
 msk.ilnk.info
 msk.kitazawa.me
@@ -22459,6 +22478,8 @@ quip.com
 quipelements.com
 quitccp.net
 quitccp.org
+quixel.com
+quixel.se
 quiz.directory
 qumingwz.com
 qumrancavesdispersed.ac.uk
@@ -22504,6 +22525,7 @@ racked.com
 rad-sat.ac.uk
 rada.ac.uk
 radeon.com
+radgametools.com
 radian6.com
 radicalparty.org
 radiko.jp
@@ -22729,6 +22751,7 @@ realgfporn.com
 realisingopportunities.ac.uk
 reality-computing.com
 realitykings.com
+realityscan.com
 reallesbianexposed.com
 reallifemethods.ac.uk
 realmaturesfuck.com
@@ -24379,6 +24402,7 @@ sketchbookdesigner.com
 sketchbookmobile.com
 sketchbooknews.com
 sketchbookpro.com
+sketchfab.com
 skillsbridge.ac.uk
 skillscompetitionwales.ac.uk
 skillsgroupuk.ac.uk
@@ -24765,6 +24789,7 @@ sostibet.org
 sothebys-institute.ac.uk
 soton.ac.uk
 sots.ac.uk
+sotwe.com
 soubory.com
 souka.xyz
 soul-plus.net
@@ -25010,6 +25035,7 @@ ssl.com
 ssl.webpack.de
 ssl443.org
 sslpaypal.org
+ssm.fun
 ssmh.ac.uk
 sspanel.net
 sspc.ac.uk
@@ -26343,6 +26369,7 @@ thornbeck.ac.uk
 thotbook.tv
 thothub.ru
 thothub.to
+thotsbay.tv
 thottok.com
 thotvids.com
 threadreaderapp.com
@@ -27105,6 +27132,7 @@ twindexx.com
 twinkboyfriends.tv
 twinkspornos.com
 twinkybf.com
+twinmotion.com
 twinprime.com
 twinsuk.ac.uk
 twip.me
@@ -27710,6 +27738,7 @@ v-has.com
 v-resort.ac.uk
 v.gd
 v2.help
+v2.hysteria.network
 v2ex.com
 v2fly.org
 v2ph.com
@@ -30502,6 +30531,7 @@ youshun12.com
 youskbe.com
 youthforfreechina.org
 youthnetradio.org
+youtrack.cloud
 youtrannytube.com
 youtu.be
 youtube
@@ -30719,9 +30749,13 @@ yyjlymb.xyz
 yysub.net
 yzld188.top
 yzzk.com
+z-lib.gd
+z-lib.gs
 z-lib.io
 z-lib.org
+z-lib.ps
 z-library.se
+z-library.sk
 z00.world
 z18r.co
 z18r.com
@@ -31344,6 +31378,7 @@ full:time-e-b.nist.gov
 full:time-e-g.nist.gov
 full:time-e-wwv.nist.gov
 full:time.apple.com
+full:time.aws.com
 full:time.euro.apple.com
 full:time.facebook.com
 full:time.google.com
