@@ -1216,6 +1216,9 @@ aizyk.xyz
 ajplus.net
 ajsjx.com
 ajtalk.com
+ak-p.tripcdn.com
+ak-s-cw.tripcdn.com
+ak-s.tripcdn.com
 ak1.net
 aka-ai.com
 aka-ai.net
@@ -1281,6 +1284,7 @@ akamqi.com
 akasha.world
 akastream.com
 akastream.net
+akatest.tripcdn.com
 akatns.net
 akiba-online.com
 akiba-web.com
@@ -2851,6 +2855,9 @@ avxhm.se
 avxlive.icu
 avxxc.com
 avyahoo.com
+aw-d.tripcdn.com
+aw-p.tripcdn.com
+aw-s.tripcdn.com
 awayoutgame.com
 aweencore.com
 awempire.com
@@ -3182,6 +3189,7 @@ bbs.kimy.com.tw
 bbs.mikocon.com
 bbs.morbell.com
 bbs.mychat.to
+bbs.naixi.net
 bbs.netbig.com
 bbs.nyinfor.com
 bbs.qmzdd.com
@@ -6629,6 +6637,7 @@ codeforces.com
 codei.sh
 codeish.co
 codeish.io
+coderabbit.ai
 codeshare.io
 codeskulptor.org
 codespot.com
@@ -7867,6 +7876,7 @@ discussionsapple.com
 dish.com
 dishworld.com
 disinhe.ac.uk
+diskstation.me
 disney-asia.com
 disney-discount.com
 disney-plus.net
@@ -8051,6 +8061,7 @@ doceapower.com
 docker.com
 docker.io
 dockerizer.com
+dockerstatic.com
 docleradn.com
 doclercdn.com
 docs.com
@@ -8301,6 +8312,9 @@ drweb.kz
 drweb.ru
 drweb.uz
 dscis.ac.uk
+dscloud.biz
+dscloud.me
+dscloud.mobi
 dscn.info
 dses.ac.uk
 dsex.to
@@ -8309,6 +8323,9 @@ dsl.ac.uk
 dslr.net
 dslreports.com
 dsmtp.com
+dsmynas.com
+dsmynas.net
+dsmynas.org
 dssott.com
 dst-dtc.ac.uk
 dstk.dk
@@ -9911,6 +9928,9 @@ family-sex.me
 family-simulator.io
 family.co.jp
 family.com.tw
+familyds.com
+familyds.net
+familyds.org
 familyfed.org
 familylifestudy.ac.uk
 familymart.com.my
@@ -13712,6 +13732,7 @@ i.111666.best
 i.lithium.com
 i.org
 i1.hk
+i234.me
 i2p2.de
 i2runner.com
 i69.com.tw
@@ -13748,6 +13769,7 @@ ibis.ac.uk
 ibit.am
 ibkr.com
 iblist.com
+ibllc.com
 iblogserv-f.net
 ibm
 ibm.com
@@ -16070,6 +16092,9 @@ lcuck.ac.uk
 lcwc.ac.uk
 ld.hao123img.com
 ldoc-cdt.ac.uk
+ldplayer.net
+ldplayer.tw
+ldstatic.com
 le-direct.tv
 le-vpn.com
 le.ac.uk
@@ -16375,6 +16400,7 @@ linkuswell.com
 linotype.com
 linseysworld.com
 linst.ac.uk
+linux.do
 linux.org
 linux.org.hk
 linuxfoundation.org
@@ -18502,11 +18528,13 @@ msedge.net
 msft.info
 msft.net
 msftauth.net
+msftauthimages.net
 msftconnecttest.com
 msfteducation.ca
 msftncsi.com
 msftnet.org
 msgamesresearch.com
+msgamestudios.com
 msguancha.com
 msha.gov
 mshome.net
@@ -18702,6 +18730,7 @@ myddns.com
 mydirectgroove.com
 mydirectvchannels.com
 mydirtyhobby.com
+myds.me
 myeasytv.com
 myebay.com
 myeclipseide.com
@@ -25766,6 +25795,7 @@ synbio-cdt.ac.uk
 syncback.com
 synergyse.com
 synology.com
+synology.me
 synologydownload.com
 synologyupdate.com
 synsym.ac.uk
@@ -26858,7 +26888,6 @@ trinitylaban.ac.uk
 trinitysaintdavid.ac.uk
 triokini.com
 trip.com
-tripcdn.com
 tristatebmw.com
 trithucvn.net
 trithucvn.org
@@ -26901,6 +26930,7 @@ trusteddwg.com
 trustedpeach.com
 trustisfps.com
 trustsign.ch
+trustwallet.com
 trustwave.com
 truth101.co.tv
 truthontour.org
@@ -31069,6 +31099,7 @@ full:avatargarenanow-a.akamaihd.net
 full:az764295.vo.msecnd.net
 full:azure.microsoft.com
 full:azuremarketplace.microsoft.com
+full:bbs.boingboing.net
 full:bcovlive-a.akamaihd.net
 full:bcsecure01-a.akamaihd.net
 full:beatselectronicsllc.tt.omtrdc.net
@@ -31143,6 +31174,8 @@ full:discord-attachments-uploads-prd.storage.googleapis.com
 full:dl.begellhouse.com
 full:dlgarenanow-a.akamaihd.net
 full:dlmobilegarena-a.akamaihd.net
+full:docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
+full:docker-pinata-support.s3.amazonaws.com
 full:download.visualstudio.microsoft.com
 full:dqrpb9wgowsf5.cloudfront.net
 full:ds-linear-abematv.akamaized.net
@@ -31463,6 +31496,7 @@ full:vscode-sync.trafficmanager.net
 full:vscode.blob.core.windows.net
 full:vscode.search.windows.net
 full:vsmarketplacebadge.apphb.com
+full:webchannel-alkalimakersuite-pa.clients6.google.com
 full:weblive-hamivideo.cdn.hinet.net
 full:wetv.qq.com
 full:widgets.stripst.com
