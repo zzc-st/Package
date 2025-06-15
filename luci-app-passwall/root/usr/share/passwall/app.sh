@@ -176,10 +176,10 @@ get_last_dns() {
 }
 
 check_port_exists() {
-	port=$1
-	protocol=$2
+	local port=$1
+	local protocol=$2
 	[ -n "$protocol" ] || protocol="tcp,udp"
-	result=
+	local result=
 	if [ "$protocol" = "tcp" ]; then
 		result=$(netstat -tln | grep -c ":$port ")
 	elif [ "$protocol" = "udp" ]; then
@@ -188,6 +188,24 @@ check_port_exists() {
 		result=$(netstat -tuln | grep -c ":$port ")
 	fi
 	echo "${result}"
+}
+
+get_new_port() {
+	local port=$1
+	[ "$port" == "auto" ] && port=2082
+	local protocol=$(echo $2 | tr 'A-Z' 'a-z')
+	local result=$(check_port_exists $port $protocol)
+	if [ "$result" != 0 ]; then
+		local temp=
+		if [ "$port" -lt 65535 ]; then
+			temp=$(expr $port + 1)
+		elif [ "$port" -gt 1 ]; then
+			temp=$(expr $port - 1)
+		fi
+		get_new_port $temp $protocol
+	else
+		echo $port
+	fi
 }
 
 check_depends() {
@@ -229,24 +247,6 @@ check_ver() {
 	done
 	# $1 等于 $2
 	echo 255
-}
-
-get_new_port() {
-	port=$1
-	[ "$port" == "auto" ] && port=2082
-	protocol=$(echo $2 | tr 'A-Z' 'a-z')
-	result=$(check_port_exists $port $protocol)
-	if [ "$result" != 0 ]; then
-		temp=
-		if [ "$port" -lt 65535 ]; then
-			temp=$(expr $port + 1)
-		elif [ "$port" -gt 1 ]; then
-			temp=$(expr $port - 1)
-		fi
-		get_new_port $temp $protocol
-	else
-		echo $port
-	fi
 }
 
 first_type() {
@@ -1170,7 +1170,7 @@ start_redir() {
 		local log_file="${proto}.log"
 		eval current_port=\$${proto}_REDIR_PORT
 		local port=$(echo $(get_new_port $current_port $proto))
-		eval ${proto}_REDIR=$port
+		eval ${proto}_REDIR_PORT=$port
 		run_redir node=$node proto=${proto} bind=0.0.0.0 local_port=$port config_file=$config_file log_file=$log_file
 		set_cache_var "ACL_GLOBAL_${proto}_node" "${node}"
 		set_cache_var "ACL_GLOBAL_${proto}_redir_port" "${port}"
