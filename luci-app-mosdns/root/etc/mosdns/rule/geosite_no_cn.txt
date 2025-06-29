@@ -2348,6 +2348,7 @@ artstor.org
 artsy.net
 aru.ac.uk
 arupoc.ac.uk
+arvanstorage.ir
 arxiv.org
 arzon.jp
 as-hp.ca
@@ -6020,7 +6021,6 @@ chianxv.buzz
 chibabank.co.jp
 chibakogyo-bank.co.jp
 chicagolandbmw.com
-chicagoncmtv.com
 chichester.ac.uk
 chichestercollegegroup.ac.uk
 chickstagram.com
@@ -10682,8 +10682,6 @@ freefacebookads.net
 freefblikes.com
 freefbx.com
 freeforums.org
-freefq.com
-freefuckvids.com
 freegao.com
 freegaypornhdtube.com
 freegaysexgames.com
@@ -11920,6 +11918,7 @@ gotraffic.net
 gotrusted.com
 gotw.ca
 gouri.xyz
+gov.ir
 gov.taipei
 gov.tw
 governmentengineer.com
@@ -14635,6 +14634,7 @@ iqiyiavlive.buzz
 iqq2.cc
 iqq3.cc
 iqqtv.net
+irangov.ir
 iranianboobs.com
 iranlms.ir
 iransextv.com
@@ -14647,6 +14647,7 @@ iri-scotland.ac.uk
 iridiumbrowser.de
 iris.ac.uk
 iriss.ac.uk
+irna.ir
 ironna.jp
 ironpython.net
 ironsocket.com
@@ -21810,6 +21811,7 @@ prescribingsafetyassessment.ac.uk
 presentation.new
 presentationzen.com
 presidencylondoncollege.ac.uk
+president.ir
 presidentlee.tw
 press.vin
 prestige-av.com
@@ -22272,6 +22274,7 @@ radiotavisupleba.ge
 radiovaticana.org
 radiovncr.com
 radiyoyacuvoa.com
+radmin-vpn.com
 rae.ac.uk
 rael.org
 raft.ac.uk
@@ -30753,9 +30756,11 @@ full:hl2rcv.adobe.com
 full:hlrcv.stage.adobe.com
 full:hls-amt.itunes.apple.com
 full:hls.itunes.apple.com
+full:holoxx.f5.si
 full:homebrew.bintray.com
 full:hpefonts.s3.amazonaws.com
 full:hpstore.corpmerchandise.com
+full:hub.slarker.me
 full:hulu.playback.edge.bamgrid.com
 full:i.jeded.com
 full:img-prod-cms-rt-microsoft-com.akamaized.net
@@ -30847,6 +30852,22 @@ full:push-apple.com.akadns.net
 full:pvr-hamivideo.cdn.hinet.net
 full:qualcomm.sc.omtrdc.net
 full:rink.hockeyapp.net
+full:rss.4040940.xyz
+full:rss.datuan.dev
+full:rss.littlebaby.life
+full:rss.owo.nz
+full:rss.wudifeixue.com
+full:rsshub.asailor.org
+full:rsshub.email-once.com
+full:rsshub.henry.wang
+full:rsshub.isrss.com
+full:rsshub.ktachibana.party
+full:rsshub.pseudoyu.com
+full:rsshub.rss.tips
+full:rsshub.rssforever.com
+full:rsshub.umzzz.com
+full:rsshub.woodland.cafe
+full:rsshub2.asailor.org
 full:rtm.tnt-ea.com
 full:sa78gs.wpc.edgecastcdn.net
 full:scc.ott.hinet.net
@@ -31127,6 +31148,7 @@ full:wwis-dubc1-vip97.adobe.com
 full:wwis-dubc1-vip98.adobe.com
 full:wwis-dubc1-vip99.adobe.com
 full:www-cdn.icloud.com.akadns.net
+full:yangzhi.app
 full:zeenews-fonts.s3.amazonaws.com
 full:ztedevices.com
 regexp:(^|\.)13mei[5-7]\.buzz$
