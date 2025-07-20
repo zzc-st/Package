@@ -48,6 +48,10 @@ function set_apply_on_parse(map)
 			showMsg_Redirect(self.redirect, 3000)
 		end
 	end
+	map.render = function(self, ...)
+		getmetatable(self).__index.render(self, ...) -- 保持原渲染流程
+		optimize_cbi_ui()
+	end
 end
 
 function showMsg_Redirect(redirectUrl, delay)
@@ -264,11 +268,16 @@ function curl_direct(url, file, args)
 end
 
 function curl_auto(url, file, args)
-	local return_code, result = curl_proxy(url, file, args)
-	if not return_code or return_code ~= 0 then
-		return_code, result = curl_direct(url, file, args)
+	local localhost_proxy = uci:get(appname, "@global[0]", "localhost_proxy") or "1"
+	if localhost_proxy == "1" then
+		return curl_base(url, file, args) -- 当路由器本机开启代理时，采用passwall规则进行访问
+	else
+		local return_code, result = curl_proxy(url, file, args)
+		if not return_code or return_code ~= 0 then
+			return_code, result = curl_direct(url, file, args)
+		end
+		return return_code, result
 	end
-	return return_code, result
 end
 
 function url(...)
@@ -1346,4 +1355,28 @@ function format_go_time(input)
 	if m > 0 then result = result .. m .. "m" end
 	if s > 0 or result == "" then result = result .. s .. "s" end
 	return result
+end
+
+function optimize_cbi_ui()
+	luci.http.write([[
+		<script type="text/javascript">
+			//修正上移、下移按钮名称
+			document.querySelectorAll("input.btn.cbi-button.cbi-button-up").forEach(function(btn) {
+				btn.value = "]] .. i18n.translate("Move up") .. [[";
+			});
+			document.querySelectorAll("input.btn.cbi-button.cbi-button-down").forEach(function(btn) {
+				btn.value = "]] .. i18n.translate("Move down") .. [[";
+			});
+			//删除控件和说明之间的多余换行
+			document.querySelectorAll("div.cbi-value-description").forEach(function(descDiv) {
+				var prev = descDiv.previousSibling;
+				while (prev && prev.nodeType === Node.TEXT_NODE && prev.textContent.trim() === "") {
+					prev = prev.previousSibling;
+				}
+				if (prev && prev.nodeType === Node.ELEMENT_NODE && prev.tagName === "BR") {
+					prev.remove();
+				}
+			});
+		</script>
+	]])
 end
