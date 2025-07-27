@@ -132,7 +132,7 @@ if api.compare_versions(xray_version, ">=", "1.8.10") then
 end
 
 -- 探测地址
-local ucpu = s:option(Flag, _n("useCustomProbeUrl"), translate("Use Custome Probe URL"), translate("By default the built-in probe URL will be used, enable this option to use a custom probe URL."))
+local ucpu = s:option(Flag, _n("useCustomProbeUrl"), translate("Use Custom Probe URL"), translate("By default the built-in probe URL will be used, enable this option to use a custom probe URL."))
 ucpu:depends({ [_n("balancingStrategy")] = "leastPing" })
 ucpu:depends({ [_n("balancingStrategy")] = "leastLoad" })
 
@@ -402,6 +402,19 @@ o:value("randomized")
 o.default = "chrome"
 o:depends({ [_n("tls")] = true, [_n("utls")] = true })
 o:depends({ [_n("tls")] = true, [_n("reality")] = true })
+
+o = s:option(Flag, _n("use_mldsa65Verify"), translate("ML-DSA-65"))
+o.default = "0"
+o:depends({ [_n("tls")] = true, [_n("reality")] = true })
+
+o = s:option(TextValue, _n("reality_mldsa65Verify"), "ML-DSA-65 " .. translate("Public key"))
+o.default = ""
+o.rows = 5
+o.wrap = "soft"
+o:depends({ [_n("use_mldsa65Verify")] = true })
+o.validate = function(self, value)
+	return api.trim(value:gsub("[\r\n]", ""))
+end
 
 o = s:option(ListValue, _n("transport"), translate("Transport"))
 o:value("raw", "RAW (TCP)")
