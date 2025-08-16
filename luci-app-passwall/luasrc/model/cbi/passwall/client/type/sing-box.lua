@@ -296,10 +296,16 @@ o.default = ""
 o:value("", translate("Disable"))
 o:value("xtls-rprx-vision")
 o:depends({ [_n("protocol")] = "vless", [_n("tls")] = true })
+o:depends({ [_n("protocol")] = "trojan", [_n("tls")] = true })
 
 if singbox_tags:find("with_quic") then
 	o = s:option(Value, _n("hysteria_hop"), translate("Port hopping range"))
 	o.description = translate("Format as 1000:2000 or 1000-2000 Multiple groups are separated by commas (,).")
+	o:depends({ [_n("protocol")] = "hysteria" })
+
+	o = s:option(Value, _n("hysteria_hop_interval"), translate("Hop Interval"), translate("Example:") .. "30s (≥5s)")
+	o.placeholder = "30s"
+	o.default = "30s"
 	o:depends({ [_n("protocol")] = "hysteria" })
 
 	o = s:option(Value, _n("hysteria_obfs"), translate("Obfs Password"))
@@ -380,6 +386,11 @@ end
 if singbox_tags:find("with_quic") then
 	o = s:option(Value, _n("hysteria2_hop"), translate("Port hopping range"))
 	o.description = translate("Format as 1000:2000 or 1000-2000 Multiple groups are separated by commas (,).")
+	o:depends({ [_n("protocol")] = "hysteria2" })
+
+	o = s:option(Value, _n("hysteria2_hop_interval"), translate("Hop Interval"), translate("Example:") .. "30s (≥5s)")
+	o.placeholder = "30s"
+	o.default = "30s"
 	o:depends({ [_n("protocol")] = "hysteria2" })
 
 	o = s:option(Value, _n("hysteria2_up_mbps"), translate("Max upload Mbps"))
@@ -475,30 +486,30 @@ if singbox_tags:find("with_utls") then
 	o:value("firefox")
 	o:value("edge")
 	o:value("safari")
-	-- o:value("360")
+	o:value("360")
 	o:value("qq")
 	o:value("ios")
-	-- o:value("android")
+	o:value("android")
 	o:value("random")
-	-- o:value("randomized")
+	o:value("randomized")
 	o.default = "chrome"
-	o:depends({ [_n("tls")] = true, [_n("utls")] = true })
+	o:depends({ [_n("utls")] = true })
 
 	-- [[ REALITY部分 ]] --
 	o = s:option(Flag, _n("reality"), translate("REALITY"))
 	o.default = 0
-	o:depends({ [_n("protocol")] = "vless", [_n("utls")] = true })
-	o:depends({ [_n("protocol")] = "vmess", [_n("utls")] = true })
-	o:depends({ [_n("protocol")] = "shadowsocks", [_n("utls")] = true })
-	o:depends({ [_n("protocol")] = "socks", [_n("utls")] = true })
-	o:depends({ [_n("protocol")] = "trojan", [_n("utls")] = true })
-	o:depends({ [_n("protocol")] = "anytls", [_n("utls")] = true })
+	o:depends({ [_n("protocol")] = "vless", [_n("tls")] = true })
+	o:depends({ [_n("protocol")] = "vmess", [_n("tls")] = true })
+	o:depends({ [_n("protocol")] = "shadowsocks", [_n("tls")] = true })
+	o:depends({ [_n("protocol")] = "socks", [_n("tls")] = true })
+	o:depends({ [_n("protocol")] = "trojan", [_n("tls")] = true })
+	o:depends({ [_n("protocol")] = "anytls", [_n("tls")] = true })
 	
 	o = s:option(Value, _n("reality_publicKey"), translate("Public Key"))
-	o:depends({ [_n("utls")] = true, [_n("reality")] = true })
+	o:depends({ [_n("reality")] = true })
 	
 	o = s:option(Value, _n("reality_shortId"), translate("Short Id"))
-	o:depends({ [_n("utls")] = true, [_n("reality")] = true })
+	o:depends({ [_n("reality")] = true })
 end
 
 o = s:option(ListValue, _n("transport"), translate("Transport"))
