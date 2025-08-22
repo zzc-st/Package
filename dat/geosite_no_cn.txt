@@ -7466,6 +7466,7 @@ den.ac.uk
 dengeamerika.com
 dengiamerika.com
 deno.com
+deno.dev
 deno.land
 dentalhypotheses.com
 dentalschoolscouncil.ac.uk
@@ -10893,6 +10894,7 @@ furbo.org
 furhhdl.org
 furinkan.com
 furness.ac.uk
+furrybar.com
 furrypornvideos.com
 furuke.com
 fury.blog
@@ -11306,6 +11308,7 @@ ggpds.com
 ggpht.com
 ggsrv.com
 ggssl.com
+gh.io
 ghbi.ir
 ghcr.io
 ghettotube.com
@@ -15435,6 +15438,7 @@ keepyourcad.com
 keezmovies.com
 keiba.net
 keighleycollege.ac.uk
+kemono.cr
 kemono.party
 kemono.su
 kendal.ac.uk
@@ -26999,6 +27003,7 @@ udn.com.tw
 udnbkk.com
 udndata.com
 udnfunlife.com
+udomain.hk
 udtrucksmeena.com
 uea.ac.uk
 ueberamazon.de
